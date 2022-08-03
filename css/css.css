@@ -1,0 +1,631 @@
+:root{
+    --cor-base-texto:  #333333;
+    --cor-verde-musgo: #40795e;
+    --cor-verde-claro: #7bb399;
+    --cor-cinza: #363636;
+    --cor-rosa-queimado: #b66d6d;
+    --cor-rosa-claro: #e99e9e; 
+    --cor-cinza-claro: #818181f8;
+}
+
+* { margin: 0;
+    padding: 0;}
+
+
+
+
+
+
+
+    h1{
+        color : #40795e;
+        font-size: 24px;
+        text-shadow: 0.1em 0.1em 0.2em rgb(168, 156, 156)
+    }
+
+    h2{
+        color: #b66d6d ;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-shadow: 0.1em 0.1em 0.2em rgb(168, 156, 156)
+      
+    }
+    
+    h3{
+         color: #7bb399;
+        
+    }
+    
+    h4{
+        color: #7bb399;
+        font-size: 16px;
+        text-transform: uppercase;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+    
+.nome{
+    margin-top: 26px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.nome2{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.funcao{
+    margin-bottom: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: rgb(19, 18, 18);
+   text-shadow: 0.1em 0.1em 0.2em rgb(129, 112, 112)
+   
+}
+
+.data{
+   color: var(--cor-rosa-claro); 
+   margin-bottom: 10px;
+}
+
+.rede-social{
+    display: inline-flex;
+}
+
+.social-midia{
+    text-align: center;
+}
+
+.nome-funcao{
+    display: flex
+}
+
+.texto-idioma{
+    color: var(--cor-base-texto);
+    font-size: 16px;
+}
+.rodape{
+    
+    display: inline-flex
+}
+.lingua{
+    color: #7bb399;
+    font-size: 20px;
+    text-transform: uppercase;
+	justify-content: space-between;
+    display: inline-flex;
+    text-align: center;
+    margin-bottom: 10px;
+   
+    
+}
+
+.rodape-titulo{
+    text-align: center;
+}
+
+
+.texto-idioma{
+    color: #333333;
+    font-size: 17px;
+    text-transform: uppercase;
+    
+}
+
+.centro-info{
+    text-align: center;
+}
+
+.centro-educacao{
+    text-align: center;
+}
+
+.centro-profissao{
+    text-align: center;
+
+}
+
+.centro-habilidades{
+    text-align: center;
+}
+
+.centro-idiomas{
+    text-align: center;
+}
+
+
+.texto{
+    color: #333333;
+}
+
+.invisivel{
+    color: #e9e6e6f8;
+}
+
+.habilidades{
+   font-size: 15px;
+   color: #7bb399;
+   text-transform: uppercase;
+   display: inline-flex }
+
+
+  .circle {
+    margin-top:26px ;
+    text-align: center;
+  }
+
+   .circle img{
+
+     border-radius: 100%;
+
+   }
+   .nomes{
+    align-items: center;
+    height: 70px;
+    justify-content: center;
+}
+
+.divisao{
+    padding-top: 8px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color:  #e9e6e6f8 ;
+}
+
+.divisao2{
+
+    margin-top: 18px ;
+    padding-top: 8px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color:  #e9e6e6f8 ;
+}
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+#lingua{
+    margin: 4px;
+	padding: 0 6px;
+	background:#e9e6e6f8;
+}
+
+#divisao3{
+    padding-top: 8px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color:  #e9e6e6f8 ;
+}
+
+#divisao4{
+    padding-top: 8px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color:  #e9e6e6f8 ;
+}
+
+#divisao5{
+    padding-top: 8px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color:  #e9e6e6f8 ;
+}
+
+#divisao6{
+    padding-top: 8px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color:  #e9e6e6f8 ;
+}
+
+#divisao7{
+    padding-top: 8px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color:  #e9e6e6f8 ;
+}
+
+#info{
+    margin: 26px 16px;
+    padding: 24px;
+    background-color: #e9e6e6f8;
+}
+
+#educacao{
+    margin: 30px 16px;
+    padding: 24px;
+    background-color: #e9e6e6f8;
+    text-align: left;
+}
+
+#profissao{
+    margin: 26px 16px;
+    padding: 24px;
+    background-color: #e9e6e6f8;
+    text-align: left;
+}
+
+#idioma{
+    margin: 26px 16px;
+    padding: 24px;
+    background-color: #e9e6e6f8;
+    
+}
+
+#habilidades{
+    margin: 26px 16px;
+    padding: 24px;
+    background-color: #e9e6e6f8;
+    display: -moz-inline-grid;
+}
+
+#rodape{
+    align-items: center;
+    margin: 26px 16px;
+    padding: 24px;
+    background-color:#e9e6e6f8 ;
+}
+
+
+
+
+
+@media screen and (min-width: 1150px){
+
+
+    header {
+        display: flex;
+     }
+
+
+     html, 
+     nav{
+        display: flex;
+        
+    }
+
+
+
+
+    h1{
+        font-size: 27px;
+    }
+    h2{
+        font-size: 23px;
+    }
+
+    h3{
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+    .circle img{
+        width: 350px;
+        height: 350px;
+        border-radius: 100%;
+		-webkit-box-shado:  9px 7px 5px  #918b8bf8;
+		-moz-box-shadow:    9px 7px 5px #918b8bf8 ;
+	     box-shadow:        9px 7px 5px #918b8bf8;
+        
+      }
+
+      .circle {
+        margin-top:26px ;
+        text-align: left;
+        margin-left: 30px;
+        flex: 1;
+        width:350px ;
+        height: 350px;
+    
+      }
+      
+      .divisao2{
+            
+        display: flex;
+        flex-direction: column;
+        height: 0;
+        width: 0;
+        
+        margin: 0;
+        padding: 0;
+   
+        }
+
+        .divisao{
+            display: flex;
+            flex-direction: column;
+            height: 0;
+            width: 0;
+            
+            margin: 0;
+            padding: 0;
+           }
+
+           .centro-educacao{
+            margin-top: 90px;
+        }
+
+        .nomes{
+            text-align: center;
+            flex: 2;
+            margin-top: 70px;
+            height: 150px;
+            margin-bottom: 0;
+            padding: 0;       
+     }
+
+     .lingua{
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .texto-idioma{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .nome2{
+        margin: 0;
+        
+    }
+
+    .funcao{
+    padding: 0;
+   
+    }
+
+    .informacoes{
+        flex-direction: column;
+        width: 250px;
+        margin-left: 100px;
+        margin-right: 80px;
+    }
+
+
+
+
+
+
+
+
+      #cabecario{
+        
+        
+        height: 400px;
+        width:100%;
+        background: #e9e6e6f8;
+        margin-left: 20pxpx; 
+      }
+
+    
+
+      #profissao{
+        -webkit-box-shado:  9px 7px 5px  #c0b7b7f8;
+		-moz-box-shadow:    9px 7px 5px #c0b7b7f8 ;
+	     box-shadow:        9px 7px 5px #c0b7b7f8;
+      }
+       
+
+      #info{
+        margin: 30px 16px;
+        padding: 24px;
+        background-color: #fffdfdf8;
+        text-align: left;
+        border-radius: 4%;
+        -webkit-box-shado:  9px 7px 5px  #c0b7b7f8;
+		-moz-box-shadow:    9px 7px 5px #c0b7b7f8 ;
+	     box-shadow:        9px 7px 5px #c0b7b7f8;
+    }
+
+       #outra-divisao{
+        -webkit-box-shado:  9px 7px 5px  #c0b7b7f8;
+		-moz-box-shadow:    9px 7px 5px #c0b7b7f8 ;
+	     box-shadow:        9px 7px 5px #c0b7b7f8;
+        padding-top: 8px;
+        padding-right: 45px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        background-color:  #e9e6e6f8 ;
+        margin-left: 12px;
+        margin-right: 12px;
+       }
+
+        #escola{
+            flex: 1;
+            
+            
+        }
+
+        #sessao-profissao{
+            flex:1;
+            margin-top: 90px;
+            
+        }
+
+       
+        #divisao3{
+            display: flex;
+            flex-direction: column;
+            height: 0;
+            width: 0;
+            
+            margin: 0;
+            padding: 0;
+        }
+
+        #idioma{
+            margin: 26px 16px;
+            padding: 24px;
+            background-color: #e9e6e6f8;
+            -webkit-box-shado:  9px 7px 5px  #c0b7b7f8;
+		-moz-box-shadow:    9px 7px 5px #c0b7b7f8 ;
+	     box-shadow:        9px 7px 5px #c0b7b7f8;
+            
+        }
+        
+        #habilidades{
+            margin: 26px 16px;
+            padding: 24px;
+            background-color: #e9e6e6f8;
+            display: -moz-inline-grid;
+            -webkit-box-shado:  9px 7px 5px  #c0b7b7f8;
+		-moz-box-shadow:    9px 7px 5px #c0b7b7f8 ;
+	     box-shadow:        9px 7px 5px #c0b7b7f8;
+        }
+
+       #mais-uma-divisao{
+        padding-top: 8px;
+        padding-right: 45px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        
+       }
+
+       #educacao{
+        height: 280px;
+        margin: 30px 16px;
+        padding: 24px;
+        background-color: #e9e6e6f8;
+        text-align: left;
+        -webkit-box-shado:  9px 7px 5px  #c0b7b7f8;
+		-moz-box-shadow:    9px 7px 5px #c0b7b7f8 ;
+	     box-shadow:        9px 7px 5px #c0b7b7f8;
+    }
+
+      #sessao-idioma{
+          flex:1;
+          margin-top: 25px;
+         
+      }
+
+      #sessao-habilidades{
+          flex: 1;
+          margin-top: 20px;
+          
+      }
+
+       #divisao6{
+        display: flex;
+        flex-direction: column;
+        height: 0;
+        width: 0;
+        
+        margin: 0;
+        padding: 0;
+       }
+
+       #background-info{
+           background-color:#e9e6e6f8 ;
+           margin-top: 12px;
+           margin-right: 12px;
+           margin-left: 12px;
+           
+       }
+
+       #sessao-info{
+           margin-top: 45px;
+
+       }
+
+      
+       #divisao5{
+        display: flex;
+        flex-direction: column;
+        height: 0;
+        width: 0;
+        
+        margin: 0;
+        padding: 0;
+       }
+
+      
+        #educacao{
+            margin: 30px 16px;
+            padding: 24px;
+            background-color: #e9e6e6f8;
+            text-align: left;
+           
+        }
+
+        #divisao4{
+           
+            display:inline-block;
+            flex-direction: row;
+            display: flex;
+            flex-direction: column;
+            height: 0;
+            width: 0;
+            
+            margin: 0;
+            padding: 0;
+ 
+       }
+
+       #divisao7{
+        background-color: white;
+       }
+
+       #rodape{
+        -webkit-box-shado:  9px 7px 5px  #c0b7b7f8;
+		-moz-box-shadow:    9px 7px 5px #c0b7b7f8 ;
+	     box-shadow:        9px 7px 5px #c0b7b7f8;
+       }
+
+      
+      
+}
+        
+
+         
+    
+
+           
+        
+       
+        
+       
+    
+
